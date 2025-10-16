@@ -1,0 +1,113 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #aba6a6;
+    color: #000000;
+    line-height: 1.6;
+}
+header {
+    background: linear-gradient(#aba6a6, #ffffff);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 100px;
+}
+.judul {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.kiri {
+    width: 220px;
+    top: 25px;
+}
+.kiri ul {
+    list-style: none;
+    background: linear-gradient(#aba6a6, #ffffff);
+    border-radius: 10px;
+    margin-top: auto;
+    position:absolute;
+    padding: 10px;
+}
+.kiri li {
+    margin: 8px 0;
+}
+.kiri a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #999;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: 500;
+    display: block;
+}
+.kanan li {
+    margin: 8px 0;
+}
+.kanan {
+    position: absolute;
+    right: 20px;
+    border-radius: 12px;
+}
+.kanan ul {
+    list-style: none;
+    background: linear-gradient(#aba6a6, #ffffff);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: auto;
+}
+.kanan a {
+   text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #999;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    display: block;
+}
+.konten { 
+    flex: 1;
+    color: white;
+    background-color: #736A67;
+    padding: 25px;
+    border-radius: 12px;
+    margin-right: 180px;
+}
+.konten img {
+    height: 100px;
+    border-radius: 12%;
+}
+.konten h1 {
+    color: #007bff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.konten h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.konten p {
+    text-align: justify;
+    font-size: 1rem;
+}
+.figure img {
+    height: 100px;
+    border-radius: 12%;
+}
+.footer {
+    text-align: center;
+    background: linear-gradient( #8d6207, #ffea07);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    flex-basis: 100%;
+}
